@@ -1,0 +1,34 @@
+h1 { 
+		   font-family:Vivaldi;
+			font-size:50px;
+			text-align:center
+			}
+a {
+            color:black;
+			text-decoration:none;
+			font-family:"Candara Light"
+          }		
+a:hover{background-color:#800000; color:white;}	  
+		
+.body {
+		background-image: url('pozadina.jpg');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		}
+li,ol, ul {
+            font-family:"Candara Light";			
+			font-size:25px;
+			text-align:center;
+			list-style-position: inside;
+			list-style: none
+			}
+td {
+       font-family:"Candara Light";			   
+			}
+.td { font-size: 20px }
+p{
+    font-family: Candara light;
+	font-size:24;
+	text-align:center
+	}

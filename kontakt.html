@@ -1,0 +1,86 @@
+<html>
+<head> <title> Dragana Tuvić</title>
+<link rel="stylesheet" href="forma.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<table align="center"cellspacing="5" cellpadding="5" border="0">
+  <tr  align="center">
+  <td> <a href="index.html"> Naslovna </a> </td>
+  <td> </td>
+   <td> <a href="jelovnik.html"> Jelovnik </a> </td>
+     <td> </td>
+   <td> <a href="cenovnik.html"> Cenovnik </a> </td>
+     <td> </td>
+   <td> <a href="recepti.html"> Recepti </a> </td>
+     <td> </td>
+   <td> <a href="onama.html"> O nama </a> </td>
+     <td> </td>
+   <td> <a href="kontakt.html"><b> Rezervacija </b></a> </td>
+  </tr> 
+</table>
+<hr width=40% color="#80000" size=2>
+<h1 class="h1"> Rezervacija </h1>
+<hr width=80% color="#80000" size=6>
+<form name="reservation_form" id="reservation_form">
+            
+                <h1 style="font-family:Candara Light">Rezerviši mesto</h1>
+                <fieldset>
+                    <legend><b>Kontakt informacije</b></legend>
+                    <label for="ime">Ime:</label>
+                    <input type="text" name="ime" id="ime" required maxlength="12"><br>
+                    <label for="prezime">Prezime:</label>
+                    <input type="text" name="prezime" id="prezime" required><br>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" required><br>
+                    <label for="telefon">Telefon:</label>
+                    <select name="telefon">
+                        <option value="1">060</option>
+                        <option value="2">061</option>
+                        <option value="3">062</option>
+                        <option value="4">063</option>
+                        <option value="5">064</option>
+                        <input type="text" name="telefon" id="telefon" required>
+                    </select><br>
+                    
+                </fieldset>
+                 <fieldset>
+                    <legend>Vreme dolaska  </legend>
+                    
+                   
+                    <label for="bed">Izaberite vreme:</label>
+                        <input type="radio" name="nivo" >Doručak
+                        <input type="radio" name="nivo">Ručak
+                        <input type="radio" name="nivo">Večera<br>
+                 </fieldset>      
+                 <div>
+                    <label for="tip">Poruka:</label>
+                    <textarea name="tip" id="tip" cols="40" rows="4"></textarea>
+                </div>
+                 </fieldset>
+     
+                 <button type="submit" >Pošalji upit</button>
+            </form>
+            <div class="footer-container">
+                <div class="footer">
+                    <div class="footer-heading footer-1">
+                        <h2>Društvene mreže</h2>
+                        <a href="#"> <i class="fa fa-instagram"></i>Instagram </a>
+                        <a href="#"><i class="fa fa-facebook-official"></i> Facebook</a>
+                    </div>
+                    <div class="footer-heading footer-2">
+                        <h2>Kontaktirajte nas</h2>
+                        <a href="#">Poslovi</a>
+                        <a href="#">Kontakt</a>
+                    </div>
+                    <div class="footer-email-form">
+                        <h2>Pridružite se</h2>
+                        <input type="email" placeholder="email" id="footer-email"> 
+                        <button type="submit">Registruj se</button>
+                        
+                    </div>
+                </div>
+    
+            </div>
+         </body>
+     </html>

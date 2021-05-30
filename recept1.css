@@ -1,0 +1,30 @@
+li, h3 {
+            font-family:"Candara Light";			
+			font-size:20px;			
+			}
+		h2	{
+            font-family:"Candara Light";			
+			font-size:25px;
+            text-align:center			
+			}
+		.center{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		a {
+			text-decoration:none;
+			color:black;
+			font-family:Candara Light;	 						
+          }	
+		  .a:hover{background-color:#800000;color:white;}	
+        h1{  font-family:Vivaldi;
+			font-size:50px;
+			text-align:center
+			}
+        img {
+            width:400;
+            height:200
+	        }
+
+			

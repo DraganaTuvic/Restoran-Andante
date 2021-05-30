@@ -1,0 +1,70 @@
+form {
+				margin: auto;
+				width: 600px;
+				border: 3px solid #800000;
+				padding: 10px 20px;
+                margin-top:50px;
+                margin-bottom: 70px;
+                border-radius: 10px;
+                
+			}
+			fieldset {
+				margin-top: 16px;
+				margin-bottom: 16px;
+                padding: 8px;
+                border-radius: 5px;
+                font-family: "Candara Light";
+			}
+			legend {
+				color: #800000;
+				font-weight: bold;
+                margin-bottom: 8px;
+                font-family: "Candara Light";
+			}
+			label {
+				float: left;
+				width: 140px;
+				font-family:"Candara Light"
+			}
+			input, select {
+				margin-left: 16px;
+				margin-right: 16px;
+                margin-bottom: 8px;
+                
+			}
+			input {
+				width: 230px;  
+			}
+			input[type="radio"], input[type="checkbox"] {
+				width: 16px;
+                margin-right: 8px;
+                
+            }
+            button{
+                width: 100px;
+                height: 30px;
+                border-radius: 4px;
+                background-color: #800000 ;
+                outline: none;
+                border: none;
+                color: #fff;
+                font-size: 1rem;
+               margin-left: auto;
+               margin-right: auto;
+			   font-family:"Candara Light"
+            }
+			.a{
+			text-align:right; color:white; background-color:#800000;font-size:18;
+            }
+            a {	
+            	text-decoration:none;
+				font-family:"Candara Light"}
+			a:hover{background-color:#800000; color:white;}	
+		    h2  {
+			font-family:"Candara Light"
+			}
+			.h1 {
+			font-family:Vivaldi;
+			font-size:50px;
+			text-align:center
+			}

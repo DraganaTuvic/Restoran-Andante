@@ -1,0 +1,45 @@
+.div0{
+    margin-top: 50px;
+    font-family: "Candara Light";
+    height: 350px;
+}
+.div1{
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin-left: 100px;
+
+}
+.table{
+    width: 400px;
+    height: 100px;
+}
+.img1{
+    width: 200px;
+    height: 300px;
+}
+.div2{
+    float: right;
+    width: 600px;
+    height: 200px;
+    margin-right: 100px;
+}
+td{
+   
+    padding: 8px;
+    text-align: center;
+       }
+.tddrugi{
+    background-color:#FFEFD5;
+	
+}
+.table1{
+    border-collapse: collapse;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+	}
+a {	
+            	text-decoration:none;
+				font-family:"Candara Light"}
+a:hover{background-color:#800000; color:white;}
