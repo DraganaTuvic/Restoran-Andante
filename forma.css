@@ -52,13 +52,10 @@ form {
                margin-left: auto;
                margin-right: auto;
 			   font-family:"Candara Light"
-            }
-			.a{
-			text-align:right; color:white; background-color:#800000;font-size:18;
-            }
+}
             a {	
             	text-decoration:none;
-				font-family:"Candara Light"}
+				font-family:"Candara Light";color:black}
 			a:hover{background-color:#800000; color:white;}	
 		    h2  {
 			font-family:"Candara Light"
